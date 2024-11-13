@@ -10,6 +10,8 @@ This repository provides CherryTree themes for users who prefer custom styling f
 - **[Cobalt](#CherryTree_Config_Cobalt.cfg)** - A theme based on the popular Cobalt color palette, offering high contrast with a vibrant feel.
 
 **Note**: These themes use the `Fira Code Medium` font for 'Rich Text' parts.
+- You can [download Fira Code here](https://fonts.google.com/specimen/Fira+Code) if it’s not already installed.
+
 
 ## Installation
 
