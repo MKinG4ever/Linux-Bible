@@ -1,28 +1,30 @@
-# Linux-Bible
+# Linux-Bible (v11.1.1)
 
 ## Document Tree:
     |_ Info
-    |_ Commands (5)
+    |_ Commands (6)
     |   |_ All (233)
     |   |_ File Status
     |   |_ Help
     |   |_ System Info
     |   |_ TaskManagers
+    |   |_ Shell Scripting
     |
-    |_ Path (3)
+    |_ Path (4)
     |   |_ Constants (4)
     |   |_ Directions (7)
     |   |_ Wordlists
+    |   |_ Linux Tree (1)
     |
     |_ Peneteration (8)
     |   |_ a-150
-    |   |_ Most used (2)
+    |   |_ Most used (3)
     |   |_ Spawn shell (4)
-    |   |_ Web Brute-Force
     |   |_ WiFi DoS Attack (3)
     |   |_ WindowsServer (1)
     |   |_ Bluetooth (1)
     |   |_ More Tools (2)
+    |   |_ Google (1)
     |
     |_ FAQ (13)
     |   |_ SHELL Tree
@@ -39,5 +41,7 @@
     |   |_ root Privilege
     |   |_ Pluse addresing
     |
-    |_ WARNING (1)
+    |_ WARNING (3)
+        |_ en
         |_ fa
+        |_ Warnings
